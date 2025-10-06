@@ -34,7 +34,7 @@ header {
   padding: 10px;
 }
 
-header .log{
+header .log {
   padding: 5px 10px;
 }
 
@@ -42,22 +42,20 @@ header .login {
   background: white;
   padding: 5px 10px;
   border-radius: 50px;
-
-
 }
 
 header .menu a {
   text-decoration: none;
   color: white;
   padding-inline: 15px;
-
 }
 
 /* BANNER */
 .banner {
-  background-image:url("../img/jumbo.png")  ;
+  background-image: url("../img/jumbo.png");
   background-size: cover;
-  background-position: center;      /* centrata */
+  background-position: center;
+  /* centrata */
   padding: 40px 0;
 
 }
@@ -82,16 +80,16 @@ header .menu a {
   color: white;
   padding-bottom: 40px;
   max-width: 800px;
-  text-align: center; 
+  text-align: center;
 
 }
 
 .banner-buttons {
-  flex-direction: row;      
-  justify-content: center;  
-  align-items: center;      
-  gap: 15px;  
-          
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
 }
 
 .banner-buttons a {
@@ -147,10 +145,10 @@ header .menu a {
 }
 
 .box {
-justify-content: center;  
+  justify-content: center;
 }
 
-.box h1{
+.box h1 {
   padding-top: 40px;
   padding-left: 70px;
   padding-right: 70px;
@@ -159,43 +157,74 @@ justify-content: center;
 
 }
 
-.box p{
+.box p {
   padding-top: 40px;
   padding-left: 70px;
   padding-right: 70px;
   min-width: 400px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;       /* grassetto leggero per i bottoni */
+  font-weight: 600;
   letter-spacing: 0.5px;
 }
 
 .box img {
-  display: block;       /* necessario per margini automatici */
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;      /* mantiene responsività */
+  max-width: 100%;
   height: auto;
 }
 
-.big h1 {
+.big {
   text-align: center;
+  padding: 40px;
 }
 
-.big p {
-  text-align: center;
+.btn-blue {
+  display: inline-block;
+  background: #7289da;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 50px;
+  margin-top: 30px !important;
 }
+
+.btn-blue:hover {
+  background: #807f7f;
+  color: #000000;
+}
+
 
 .red {
-  background: salmon;
+  color: #ddd
+}
+
+.red p {
+  text-align: justify;
+  padding: 0;
+  display: inline-block;
 }
 
 /* CARDS */
 
 .card {
   flex: 1;
-  background: cyan;
-  height: 200px;
-  border: 1px solid rgb(65, 200, 200);
+  color: white;
+}
+
+.card h4{
+  color: #7289da ;
+  padding-bottom: 10px;
+}
+
+.no-bullets {
+  list-style: none;   
+  padding: 0;         
+  margin: 0;          
+}
+
+.no-bullets li {
+  margin-bottom: 10px; 
 }
 
 /* FOOTER */
@@ -209,12 +238,14 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background: aqua;
-
 }
-
-.footer-logo,
 .footer-bottom {
-  background: pink;
+  background: #7289da;
   padding: 5px 10px;
+  border-radius: 50px;
+}
+.footer-bottom:hover {
+  background: #65697a;
+  padding: 5px 10px;
+  border-radius: 50px;
 }
