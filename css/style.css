@@ -97,20 +97,25 @@ header .menu a {
   border-radius: 50px;
 }
 
-.banner-buttons a:hover {
-  background: #807f7f;
-  color: #000000;
-}
-
 .banner-buttons a.btn-white {
   background-color: white;
   color: #222;
 
 }
 
+.banner-buttons a.btn-white:hover {
+  background-color: black;
+  color: white;
+}
+
 .banner-buttons a.btn-black {
   background-color: black;
   color: white;
+}
+
+.banner-buttons a.btn-black:hover {
+  background-color: white;
+  color: #222;
 }
 
 /* SECTIONS */
@@ -212,19 +217,19 @@ header .menu a {
   color: white;
 }
 
-.card h4{
-  color: #7289da ;
+.card h4 {
+  color: #7289da;
   padding-bottom: 10px;
 }
 
 .no-bullets {
-  list-style: none;   
-  padding: 0;         
-  margin: 0;          
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .no-bullets li {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 /* FOOTER */
@@ -239,12 +244,14 @@ footer {
   align-items: center;
   padding: 10px;
 }
+
 .footer-bottom {
   background: #7289da;
   padding: 5px 10px;
   border-radius: 50px;
   color: white;
 }
+
 .footer-bottom:hover {
   background: #65697a;
   padding: 5px 10px;
