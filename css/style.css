@@ -243,6 +243,7 @@ footer {
   background: #7289da;
   padding: 5px 10px;
   border-radius: 50px;
+  color: white;
 }
 .footer-bottom:hover {
   background: #65697a;
